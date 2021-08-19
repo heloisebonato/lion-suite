@@ -1,0 +1,116 @@
+/* ------------- FONTES ------------------- */
+
+@font-face { font-family: 'montserratmedium'; src: url("../assets/fonts/montserrat-medium-webfont.woff2") format("woff2"), url("../assets/fonts/montserrat-medium-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'montserratbold'; src: url("../assets/fonts/montserrat-bold-webfont.woff2") format("woff2"), url("../assets/fonts/montserrat-bold-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'montserratregular'; src: url("../assets/fonts/montserrat-regular-webfont.woff2") format("woff2"), url("../assets/fonts/montserrat-regular-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'montserratsemibold'; src: url("../assets/fonts/montserrat-semibold-webfont.woff2") format("woff2"), url("../assets/fonts/montserrat-semibold-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
+
+/* ------------- STYLE: SECTION TOPO ------------------- */
+
+#home .topo { -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1); z-index: 40; position: relative; }
+
+
+
+/* ------------- STYLE: SECTION 01 ------------------- */
+
+#home .sec01 { background-image: url("../img/banner-sec01.png"); background-position: center; background-repeat: no-repeat; background-size: cover; }
+
+#home .sec01 .title { font-family: 'montserratregular'; color: #fff; font-size: 53px; text-align: left; line-height: 64px; }
+
+#home .sec01 .title-bold { font-family: 'montserratbold'; }
+
+#home .sec01 .button-saiba-mais { width: 170px; height: 50px; background-color: #81D8D0; border: solid 8px #81D8D0; border-radius: 3px; display: flex; justify-content: center; align-items: center; font-size: 15px; text-decoration: none; color: #1C1C1C; font-family: 'montserratmedium'; }
+
+#home .sec01 .button-saiba-mais:hover { transition: 0.4s; background-color: transparent; color: #fff; border: solid 1px #fff; }
+
+
+
+#home .sec02 .title { font-family: 'montserratregular'; color: #000000; font-size: 43px; text-align: left; line-height: 52px; }
+
+#home .sec02 .title-bold { font-family: 'montserratbold'; }
+
+#home .sec02 .description { color: #666666; font-size: 17px; text-align: left; line-height: 25px; font-family: 'montserratregular'; }
+
+#home .sec02 .button-como-contratar {transition: 0.4s; width: 208px; height: 50px; display: flex; justify-content: center; align-items: center; background-color: #81D8D0; border: solid 8px #81D8D0; border-radius: 3px; color: #1C1C1C; font-size: 15px; font-family: 'montserratmedium'; }
+
+#home .sec02 .button-como-contratar:hover { transition: 0.4s; background-color: transparent; color: #1C1C1C; border: solid 2px #81D8D0; text-decoration: none; }
+
+
+
+#home .sec03 { background-color: #81D8D0; }
+
+#home .sec03 .title { font-family: 'montserratregular'; color: #000; font-size: 42px; text-align: center; line-height: 52px; }
+
+#home .sec03 .title-bold { font-family: 'montserratbold'; }
+
+#home .sec03 .title-recursos { font-family: 'montserratsemibold'; color: #000; font-size: 20px; text-align: center; }
+
+#home .sec03 .description { font-family: 'montserratregular'; color: #000; font-size: 15px; text-align: center; line-height: 25px; }
+
+
+#home .funcionalidade .title{font-family: 'montserratregular'; color: #000; font-size: 42px; text-align: center; line-height: 52px;}
+
+#home .funcionalidade .title-bold{font-family: 'montserratbold';}
+
+#home .funcionalidade .subtitle {color: #666666; font-family: 'montserratbold'; font-size: 17px; text-align: left; line-height: 25px;}
+
+#home .funcionalidade .item {font-style: italic; font-size: 17px; color: #666666; text-align: left;}
+
+#home .funcionalidade .btn-saber-mais{transition: 0.4s; width: 208px; height: 50px; display: flex; justify-content: center; align-items: center; background-color: #81D8D0; border: solid 8px #81D8D0; border-radius: 3px; color: #1C1C1C; font-size: 15px; font-family: 'montserratmedium';}
+
+#home .funcionalidade .btn-saber-mais:hover{ transition: 0.4s; background-color: transparent; color: #1C1C1C; border: solid 2px #81D8D0; text-decoration: none;}
+/* #home .sec05 { background-color: #EAEAEA; } */
+
+#home .sec05 .title { font-family: 'montserratregular'; color: #000000; font-size: 36px; text-align: left; line-height: 52px; }
+
+#home .sec05 .title-bold { font-family: 'montserratbold'; }
+
+#home .sec05 .slick-prev::before, #home .sec05 .slick-next::before { color: #000; font-size: 33px; }
+
+
+
+#home .sec06 { background-color: #DF602A; }
+
+#home .sec06 .title { font-family: 'montserratregular'; color: #fff; font-size: 42px; text-align: left; line-height: 52px; }
+
+#home .sec06 .title-bold { font-family: 'montserratbold'; }
+
+#home .sec06 .subtitle { color: #fff; font-family: 'montserratregular'; font-size: 17px; text-align: left; line-height: 25px; }
+
+#home .sec06 .form-control { border-color: #fff; height: 50px; font-size: 15px; font-family: 'montserratregular'; border-radius: 10px; margin-bottom: 20px; }
+
+#home .sec06 .form-check-label { color: #fff; font-size: 12px; font-family: 'montserratregular'; }
+
+#home .sec06 .button-enviar { width: 208px; height: 50px; display: flex; justify-content: center; align-items: center; font-family: 'montserratmedium'; font-size: 13px; border: solid 8px #81D8D0; background-color: #81D8D0; border-radius: 5px; }
+
+#home .sec06 .button-enviar:hover { transition: 0.4s; background-color: transparent; color: #fff; border: solid 1px #fff; }
+
+
+
+#home .rodape { background-color: #1C1C1C; }
+
+#home .rodape .contact, #home .rodape .address { font-size: 16px; color: #fff; line-height: 25px; text-align: left; font-family: 'montserratregular'; }
+
+#home .rodape .obs { color: #fff; font-size: 13px; text-align: left; }
+
+
+
+@media (max-width: 992px) { #home .topo .navbar .collapse { visibility: hidden; height: 10px; }
+
+  #home .topo .navbar .collapse .active { visibility: visible; height: auto; }
+
+  #home .sec01 { background-position: initial; }
+
+  #home .sec01 .title { font-size: 35px; line-height: 54px; }
+
+  #home .sec02 .title { font-size: 35px; }
+
+  #home .rodape .address, #home .rodape .contact { text-align: center; font-size: 13px; line-height: 18px; } }
+
+.sec05 .slick-slide img { max-height: 50px;}
+#home {overflow-x: hidden;}
+/*# sourceMappingURL=style.css.map */
+

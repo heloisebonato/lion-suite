@@ -1,0 +1,11 @@
+[03-Feb-2021 18:32:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_field() in /home/jobs/public_html/lion-suite/back/wp-content/themes/Lion/header.php:77
+Stack trace:
+#0 /home/jobs/public_html/lion-suite/back/wp-includes/template.php(730): require_once()
+#1 /home/jobs/public_html/lion-suite/back/wp-includes/template.php(676): load_template('/home/jobs/publ...', true, Array)
+#2 /home/jobs/public_html/lion-suite/back/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/jobs/public_html/lion-suite/back/wp-content/themes/Lion/home.php(15): get_header()
+#4 /home/jobs/public_html/lion-suite/back/wp-includes/template-loader.php(106): include('/home/jobs/publ...')
+#5 /home/jobs/public_html/lion-suite/back/wp-blog-header.php(19): require_once('/home/jobs/publ...')
+#6 /home/jobs/public_html/lion-suite/back/index.php(17): require('/home/jobs/publ...')
+#7 {main}
+  thrown in /home/jobs/public_html/lion-suite/back/wp-content/themes/Lion/header.php on line 77

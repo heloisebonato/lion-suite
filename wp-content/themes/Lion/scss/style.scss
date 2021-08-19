@@ -1,0 +1,322 @@
+/* ------------- FONTES ------------------- */
+
+@font-face {
+    font-family: 'montserratmedium';
+    src: url('../assets/fonts/montserrat-medium-webfont.woff2') format('woff2'),
+        url('../assets/fonts/montserrat-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../assets/fonts/montserrat-bold-webfont.woff2') format('woff2'),
+        url('../assets/fonts/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../assets/fonts/montserrat-regular-webfont.woff2') format('woff2'),
+        url('../assets/fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratsemibold';
+    src: url('../assets/fonts/montserrat-semibold-webfont.woff2') format('woff2'),
+        url('../assets/fonts/montserrat-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* ------------- STYLE: SECTION TOPO ------------------- */
+
+#home .topo {
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+    z-index: 40;
+    position: relative;
+}
+
+/* ------------- STYLE: SECTION 01 ------------------- */
+
+#home .sec01 {
+    background-image: url('../img/banner-sec01.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .title {
+        font-family: 'montserratregular';
+        color: #fff;
+        font-size: 53px;
+        text-align: left;
+        line-height: 64px;
+    }
+
+    .title-bold {
+        font-family: 'montserratbold';
+    }
+
+    .button-saiba-mais {
+        width: 170px;
+        height: 50px;
+        background-color: #81D8D0;
+        border: solid 8px #81D8D0;
+        border-radius: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        text-decoration: none;
+        color: #1C1C1C;
+        font-family: 'montserratmedium';
+    }
+    .button-saiba-mais:hover{
+        transition: 0.4s;
+        background-color: transparent;
+        color: #fff;
+        border: solid 1px #fff;
+    }
+}
+
+#home .sec02 {
+    .title {
+        font-family: 'montserratregular';
+        color: #000000;
+        font-size: 43px;
+        text-align: left;
+        line-height: 52px;
+    }
+
+    .title-bold {
+        font-family: 'montserratbold';
+    }
+
+    .description {
+        color: #666666;
+        font-size: 17px;
+        text-align: left;
+        line-height: 25px;
+        font-family: 'montserratregular';
+    }
+
+    .button-como-contratar {
+        width: 208px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #81D8D0;
+        border: solid 8px #81D8D0;
+        border-radius: 3px;
+        color: #1C1C1C;
+        font-size: 15px;
+        font-family: 'montserratmedium';
+    }
+    .button-como-contratar:hover{
+        transition: 0.4s;
+        background-color: transparent;
+        color: #1C1C1C;
+        border: solid 2px #81D8D0;
+        text-decoration: none;
+    }
+
+}
+
+#home .sec03 {
+    background-color: #81D8D0;
+
+    .title {
+        font-family: 'montserratregular';
+        color: #fff;
+        font-size: 42px;
+        text-align: center;
+        line-height: 52px;
+    }
+
+    .title-bold {
+        font-family: 'montserratbold';
+    }
+
+    .title-recursos {
+        font-family: 'montserratsemibold';
+        color: #fff;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .description {
+        font-family: 'montserratregular';
+        color: #fff;
+        font-size: 15px;
+        text-align: center;
+        line-height: 25px;
+    }
+}
+
+#home .funcionalidade{
+    .title {
+        font-family: 'montserratregular';
+        color: #000000;
+        font-size: 36px;
+        text-align: left;
+        line-height: 52px;
+    }
+
+    .title-bold {
+        font-family: 'montserratbold';
+    }
+    .subtitle{
+        color: #666666;
+        font-family: 'montserratbold';
+        font-size: 17px;
+        text-align: left;
+        line-height: 25px;
+    }
+    .item{
+        font-style: italic;
+        font-size: 17px; 
+        color: #666666; 
+        text-align: left;
+    }
+}
+#home .sec05 {
+    background-color: #EAEAEA;
+
+    .title {
+        font-family: 'montserratregular';
+        color: #000000;
+        font-size: 36px;
+        text-align: left;
+        line-height: 52px;
+    }
+
+    .title-bold {
+        font-family: 'montserratbold';
+    }
+
+    .slick-prev::before,
+    .slick-next::before {
+        color: #000;
+        font-size: 33px;
+    }
+}
+
+#home .sec06 {
+    background-color: #DF602A;
+
+    .title {
+        font-family: 'montserratregular';
+        color: #fff;
+        font-size: 42px;
+        text-align: left;
+        line-height: 52px;
+    }
+
+    .title-bold {
+        font-family: 'montserratbold';
+    }
+
+    .subtitle {
+        color: #fff;
+        font-family: 'montserratregular';
+        font-size: 17px;
+        text-align: left;
+        line-height: 25px;
+    }
+
+    .form-control {
+        border-color: #fff;
+        height: 50px;
+        font-size: 15px;
+        font-family: 'montserratregular';
+        border-radius: 10px;
+    }
+
+    .form-check-label {
+        color: #fff;
+        font-size: 12px;
+        font-family: 'montserratregular';
+    }
+
+    .button-enviar {
+        width: 208px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'montserratmedium';
+        font-size: 13px;
+        border: solid 8px #81D8D0;
+        background-color: #81D8D0;
+        border-radius: 5px;
+    }
+    .button-enviar:hover{
+        transition: 0.4s;
+        background-color: transparent;
+        color: #fff;
+        border: solid 1px #fff;
+    }
+}
+
+#home .rodape {
+    background-color: #1C1C1C;
+
+    .contact,
+    .address {
+        font-size: 16px;
+        color: #fff;
+        line-height: 25px;
+        text-align: left;
+        font-family: 'montserratregular';
+    }
+    .obs{
+        color: #fff;
+        font-size: 13px;
+        text-align: left;
+    }
+}
+
+@media(max-width: 992px) {
+    #home {
+        .topo{
+            .navbar {
+                .collapse {
+                    visibility: hidden;
+                    height: 10px;
+                }
+        
+                .collapse .active {
+                    visibility: visible;
+                    height: auto;
+                }
+            }
+        }
+        .sec01 {
+            background-position: initial;
+            .title {
+                font-size: 35px;
+                line-height: 54px;
+            }
+        }
+        .sec02 {
+            .title{
+                font-size: 35px;
+            }
+        }
+        .rodape{
+            .address, .contact{
+                text-align: center;
+                font-size: 13px;
+                line-height: 18px;
+            }
+        }
+
+    }
+}
